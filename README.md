@@ -70,11 +70,3 @@ Versionage :
     - Git 
     - Devops
 
-### `Taches par binome :`
-
-Jaiti Mohammed : 
-    * Design & frontend with react
-    * login & register (backend - frontend) 
-    * liste des etudiants + listes  des professors (backend - frontend)
-Hmimssa Soufiane : 
-    * CRUD filière (frontend - backend)
