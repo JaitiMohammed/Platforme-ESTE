@@ -1,0 +1,8 @@
+section .ui.vertical.segment {
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+#about {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}

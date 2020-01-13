@@ -1,0 +1,166 @@
+body {
+    background: #ffff;
+    background-image: none;
+}
+.ui.inverted.segment, .ui.primary.inverted.segment {
+    background: #1b1c1d;
+    color: rgba(255,255,255,.9);
+    border-radius: 0;
+}
+.ui.secondary.menu .item>img:not(.ui) {
+    margin: 0;
+    width: 130px;
+    /* height: 80px; */
+    margin-left: 20px;
+    margin-right: 30px;
+    padding-top: 2px;
+    /* padding-bottom: 0; */
+    padding: 0;
+}
+.ui.secondary.inverted.menu {
+    background-color: transparent;
+    margin-right: 25px;
+    margin-left: 12px;
+    padding: 0;
+}
+.ui.menu:not(.vertical) .right.item, .ui.menu:not(.vertical) .right.menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto!important;
+    margin-right: 15px;
+    margin-left: 12px;
+}
+.ui.menu:not(.vertical) .item>.button {
+    position: relative;
+    top: 0;
+    margin: -.5em 0;
+    padding-bottom: .78571429em;
+    padding-top: .78571429em;
+    font-size: 1em;
+    margin-left: 15px;
+}
+/*-------------------------*/
+.ui.inverted.vertical.center.aligned.segment {
+    padding-top: 36px;
+    margin-bottom: 12px;
+    height: 550px;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: grayscale;
+}
+
+img {
+    border-style: none;
+    margin-bottom: 0px;
+    margin-top: 2px;
+    padding: 0;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+    .ui.container {
+        width: 700px;
+        max-width: 700px;
+    }
+
+    nav.ui.container .ui.header {
+        float: left;
+        margin-top: 12px;
+    }
+
+    nav.ui.container .ui.inverted.compact.menu {
+        float: right;
+    }
+}
+
+.ui.inverted.vertical.center.aligned.segment {
+    padding-top: 36px;
+    
+}
+
+nav.ui.container .ui.inverted.compact.menu .item {
+    font-size: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 14px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 0;
+}
+
+nav.ui.container .ui.inverted.compact.menu .active.item {
+    background-color: inherit;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.ui.inverted.vertical.segment {
+    height: 400px;
+    background-image: url('../../assets/img/cover-este.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ui.content.container {
+    height: 300px;
+    position: absolute;
+    top: 1;
+    bottom: 1;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.ui.text.container {
+    font-size: 1.14285714rem;
+    margin-bottom: 12px;
+    margin-top: 50px;
+}
+.logo {
+    margin-bottom: 40px;
+    margin-top: 65px;
+}
+h2 {
+    margin-bottom: 30px;
+}
+.ui.content.container h1.header {
+    font-size: 36px;
+    padding-top: 45px;
+    font-family: 'Sarala', sans-serif;
+
+}
+
+.ui.content.container p {
+    font-size: 20px;
+    padding-top: 20px;
+    margin-top: 5px;
+    line-height: 1.6;
+    font-weight: 300;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.ui.inverted.vertical.segment footer.ui.segment {
+    height: 45px;
+    
+    position: absolute;
+    bottom: 0;
+    color: gray;
+}
+
+.ui.inverted.vertical.segment footer.ui.segment a {
+    color: white;
+    font-family: 'Sarala', sans-serif;
+
+}
+
+.ui.huge.button {
+    color: black;
+}
+
+.ui.huge.button:hover {
+    background-color: #480909;
+    color: wheat;
+}
